@@ -8,12 +8,14 @@ export const pool = createPool({        //tworzymy pliki konfigurcyjne
     host: 'localhost',
     user: 'root',
     database: 'megak_arena',
-    port: 3305,                 // <==== bez tego nie laczy z baza danych!***************************
+    port: 3305,                 // <==== bez tego nie laczy z baza danych!******************* port moze byc rozny sprawdzaj xamppa i heidi php na jakich portach
     namedPlaceholders: true,
     decimalNumbers: true,
 })
 
-
+***********************************
+OSTYLOWANE I DZIALAJACE 30.12.2022
+***********************************************************************************
 
 
 
