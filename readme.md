@@ -163,6 +163,11 @@ Zapisujemy mu w bazie +1 do zwycięstw. Podczas walki, powinien się generować 
 
 
 
+![Zrzut ekranu (13)](https://user-images.githubusercontent.com/110019733/218254333-406b2cb1-7db3-4292-90bb-463690a508c2.png)
+![Zrzut ekranu (14)](https://user-images.githubusercontent.com/110019733/218254335-48a46903-2f0e-4b73-a826-fb68e5a32762.png)
+![Zrzut ekranu (15)](https://user-images.githubusercontent.com/110019733/218254336-d52488a4-7932-4a60-89a6-5f960074fe24.png)
+![Zrzut ekranu (16)](https://user-images.githubusercontent.com/110019733/218254339-b71e8bde-dd1c-422b-b4ea-d62d9a4e87ec.png)
+![Zrzut ekranu (17)](https://user-images.githubusercontent.com/110019733/218254340-1d22c9a6-4195-4a57-9060-6bdd662597c0.png)
 
 
 
