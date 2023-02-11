@@ -30,11 +30,13 @@ Zwinność
 Trudnośc polega na tym, że do rozdania jest łącznie 10 punktów.
 
 Łącznie statystyki muszą wynosić 10 .
-Te informacje kiedy zostaną zapisane nigdy się nie zmieniają. Tzn. np. podczas walki utrata obrony jest tymczasowa, nie powinna zostać zapisana między walkami. Liczba zwycięstw - domyślnie 0.
+Te informacje kiedy zostaną zapisane nigdy się nie zmieniają. Tzn. np. podczas walki utrata obrony jest tymczasowa, nie powinna zostać zapisana między walkami. 
+Liczba zwycięstw - domyślnie 0.
 
 Arena walk Arena polega na tym, że wybieramy z 2 selectów 2 różnych przeciwników (nie można tych samych). Walczą ze sobą, na końcu widzimy log całej walki na frontendzie.
 
-Algorytm walki (można go modyfikowac, to tylko propozycja): 1.Na początku każdy ma tyle pkt życia HP ile wynosi jego wytrzymałość * 10. Każdy ma na początku tyle tarczy DP ile wynosi jego obrona. 2.WOjownik, który zaczyna wykonuje atak o wartości rónej jego sile. 3. Jeżeli wojownik atakowany ma tarczę + zwinność większą niż siłą ataku to - Odejmowana mu jesta tarcza w wysokości ataku Jeżeli atak był większy niż tarcza, to odejmowana jest mu od życia pozostała ilość siły ataku. Jeżeli atak byłmaksymalnie tyle ile wynosi aktualnie tarcza, to nie jest odejmowane życie. 4.Następuje zmiana kolejności i teraz atakowany zostaje atakującym, a atakujący atakowanym. 5. Powtarzamy punkty 2-4 tak długo dopóki ktoś nie umrze, czyli jego HP nie spadnie do min 0. Gdy jeden z wojowników umrze, to atakujący zostaje zwycięzcą. Zapisujemy mu w bazie +1 do zwycięstw.
+Algorytm walki (można go modyfikowac, to tylko propozycja): 1.Na początku każdy ma tyle pkt życia HP ile wynosi jego wytrzymałość * 10. Każdy ma na początku tyle tarczy DP ile wynosi jego obrona. 2.WOjownik, który zaczyna wykonuje atak o wartości rónej jego sile. 3. Jeżeli wojownik atakowany ma tarczę + zwinność większą niż siłą ataku to - Odejmowana mu jesta tarcza w wysokości ataku Jeżeli atak był większy niż tarcza, to odejmowana jest mu od życia pozostała ilość siły ataku. 
+Jeżeli atak byłmaksymalnie tyle ile wynosi aktualnie tarcza, to nie jest odejmowane życie. 4.Następuje zmiana kolejności i teraz atakowany zostaje atakującym, a atakujący atakowanym. 5. Powtarzamy punkty 2-4 tak długo dopóki ktoś nie umrze, czyli jego HP nie spadnie do min 0. Gdy jeden z wojowników umrze, to atakujący zostaje zwycięzcą. Zapisujemy mu w bazie +1 do zwycięstw.
 
 Podczas walki powinien się genreować dokłądny log, który zostanie zwrócony na frontend. Powinien on zawierać szczególowe informacje - kto kogo atakuje, czy powipdła się obrona, iel zostało zabrane z tarczy itp.
 
