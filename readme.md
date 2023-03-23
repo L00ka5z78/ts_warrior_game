@@ -23,7 +23,7 @@ In general, in this state my own code is around 30% and the rest comes from boot
 ExpressJs, Typescript, MySql database
 No frontend. Instead of this one use Express Handlebars to simulate it.
 
-##To run the project:
+### To run the project:
 Clone the repository: git clone https://github.com/L00ka5z78/ts_warrior_game.git
 
 ### Install required dependencies.
